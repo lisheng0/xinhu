@@ -1,0 +1,17 @@
+[ERROR SQL]
+SELECT count(1) FROM xinhu_goods WHERE `id`='1'  and ((ifnull(receid,'')='' or instr(concat(',', receid, ','), ',all,')>0 or instr(concat(',', receid, ','), ',u98,')>0 or instr(concat(',', receid, ','), ',d1,')>0 or instr(concat(',', receid, ','), ',d8,')>0 or instr(concat(',', receid, ','), ',d17,')>0))
+
+[Reason]
+Unknown column 'receid' in 'where clause'
+
+[URL]
+http://oatest.guanruigroup.com:9595/task.php?a=p&num=goods&mid=1
+
+[IP]
+116.224.60.208
+
+[datetime]
+2018-08-07 14:42:03
+
+[Browser]
+Mozilla/5.0 (Linux; Android 8.0; MI 6 Build/OPR1.170623.027; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/57.0.2987.132 MQQBrowser/6.2 TBS/044204 Mobile Safari/537.36 V1_AND_SQ_7.7.0_882_YYB_D PA QQ/7.7.0.3640 NetType/WIFI WebP/0.3.0 Pixel/1080

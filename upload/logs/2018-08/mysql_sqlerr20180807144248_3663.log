@@ -1,0 +1,17 @@
+[ERROR SQL]
+SELECT count(1) FROM xinhu_goods WHERE `id`='1'  and ((ifnull(receid,'')='' or instr(concat(',', receid, ','), ',all,')>0 or instr(concat(',', receid, ','), ',u98,')>0 or instr(concat(',', receid, ','), ',d1,')>0 or instr(concat(',', receid, ','), ',d8,')>0 or instr(concat(',', receid, ','), ',d17,')>0))
+
+[Reason]
+Unknown column 'receid' in 'where clause'
+
+[URL]
+http://oatest.guanruigroup.com:9595/task.php?a=p&num=goods&mid=1
+
+[IP]
+116.224.60.208, 10.248.44.52
+
+[datetime]
+2018-08-07 14:42:48
+
+[Browser]
+Mozilla/5.0 (Linux; U; Android 8.0.0; zh-CN; MI 6 Build/OPR1.170623.027) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/57.0.2987.108 UCBrowser/11.8.8.968 UWS/2.13.1.45 Mobile Safari/537.36 UCBS/2.13.1.45_180710173820 NebulaSDK/1.8.100112 Nebula AlipayDefined(nt:WIFI,ws:360|0|3.0,ac:sp) AliApp(AP/10.1.30.663) AlipayClient/10.1.30.663 Language/zh-Hans useStatusBar/true isConcaveScreen/false

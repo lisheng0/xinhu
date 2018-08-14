@@ -1,0 +1,30 @@
+[ERROR SQL]
+SELECT count(1) FROM xinhu_goods WHERE `id`<>6 and `typeid`=固定资产 and `name`='办公笔记本' and ifnull(`guige`,'')='台式' and ifnull(`xinghao`,'')='dell  440'
+
+[Reason]
+Unknown column '固定资产' in 'where clause'
+
+[URL]
+http://oatest.guanruigroup.com:9595/index.php?a=save&m=mode_goods|input&d=flow&ajaxbool=true&rnd=479951
+
+[POST]
+[id]：6
+[num]：WI-00001
+[name]：办公笔记本
+[typeid]：固定资产
+[guige]：台式
+[xinghao]：dell  440
+[price]：5600.00
+[unit]：台
+[stock]：0
+[sysmodeid]：83
+[sysmodenum]：goods
+
+[IP]
+116.224.60.208
+
+[datetime]
+2018-08-09 14:58:27
+
+[Browser]
+Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:61.0) Gecko/20100101 Firefox/61.0

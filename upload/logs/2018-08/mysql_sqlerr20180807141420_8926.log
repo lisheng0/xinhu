@@ -1,0 +1,22 @@
+[ERROR SQL]
+insert into `xinhu_sjoin` (`type`,`mid`,`sid`,`indate`) select 'mu','248',`id`,'2018-08-07 14:14:20' from `xinhu_admin` where `id` in()
+
+[Reason]
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+
+[URL]
+http://oatest.guanruigroup.com:9595/index.php?a=save&m=extent&d=system&ajaxbool=true&rnd=958455
+
+[POST]
+[type]：mu
+[mid]：248
+[checkaid]：
+
+[IP]
+116.224.60.208
+
+[datetime]
+2018-08-07 14:14:20
+
+[Browser]
+Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36
